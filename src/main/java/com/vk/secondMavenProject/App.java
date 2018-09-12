@@ -13,7 +13,7 @@ public class App
     {
     	ApplicationContext applicationContext = new AnnotationConfigApplicationContext(MyAppConfig.class);
     	
-       Samsung s7 = applicationContext.getBean(Samsung.class);
-       s7.config();
+       Alien alien = applicationContext.getBean(Alien.class);
+       alien.show();
     }
 }
